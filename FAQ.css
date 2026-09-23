@@ -12,44 +12,7 @@ html {
 a {
 	text-decoration: none;
 }
-.container {
-	min-height: 100vh;
-	width: 100%;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-}
 
-.section-title {
-	font-size: 4rem;
-	font-weight: 300;
-	color: black;
-	margin-bottom: 10px;
-	text-transform: uppercase;
-	letter-spacing: 0.2rem;
-	text-align: center;
-}
-.section-title span {
-	color: rgb(91, 167, 61);
-}
-
-.cta {
-	display: inline-block;
-	padding: 10px 30px;
-	color: white;
-	background-color: transparent;
-	border: 2px solid rgb(91, 167, 61);
-	font-size: 2rem;
-	text-transform: uppercase;
-	letter-spacing: 0.1rem;
-	margin-top: 30px;
-	transition: 0.3s ease;
-	transition-property: background-color, color;
-}
-.cta:hover {
-	color: white;
-	background-color: rgb(91, 167, 61);
-}
 .brand h1 {
 	font-size: 3rem;
 	text-transform: uppercase;
@@ -86,9 +49,7 @@ a {
   align-items: center;
   font-weight: bold;
 }
-.accordion a {
-  font-size: 1.6rem;
-}
+
 .active,
 .accordion:hover {
   background-color: #f2f1f7;
@@ -116,17 +77,14 @@ a {
 
 /* HEADER SECTION */
 #header {
-	  position: sticky;
-  		top: 0;
-  		z-index: 1000;
+	position: sticky;
+  	top: 0;
+  	z-index: 1000;
 	width: 100vw;
 	height: auto;
-}
-#header .header {
-	min-height: 8vh;
 	background-color: black;
-	/** transition: 0.3s ease background-color; **/
 }
+
 #header .nav-bar {
 	display: flex;
 	align-items: center;
